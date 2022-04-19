@@ -1,5 +1,6 @@
-Feature:
-  <Some interesting description here>
+Feature: Guess the word
 
-  Scenario:
-    <Some interesting scenario steps here>
+
+  Scenario: Maker starts a game
+    When the Maker starts a game
+    Then the Maker waits for a Breaker to join
