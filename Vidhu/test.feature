@@ -1,5 +1,5 @@
 Feature:
-  <Some interesting description here>
+  Add number of items in the list.
 
   Scenario:
-    <Some interesting scenario steps here>
+    User clicks on Add and text editor with bullet points appear.
