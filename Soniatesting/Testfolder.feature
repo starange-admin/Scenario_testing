@@ -1,8 +1,10 @@
-Feature: Login	
-	Scenario: Login Functionality
-	Given user navigates to the website javatpoint.com
-	And there user logs in through Login Window by using Username as "USER"and Password as "PASSWORD"
-	Then login must be successful.
+    Feature: Registration	
+	Background: 
+	Given user on the homepage  
+	Scenario: Create a New User 
+	When user fills "registration email textbox"with "chitrali.sharma27@gmail.com"
+	And user clicks "create an account button"
+
 
 
 
