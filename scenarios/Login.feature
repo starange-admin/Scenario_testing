@@ -1,4 +1,4 @@
-Feature: Login
+Feature: Login edit
 
   Scenario: Error on empty fields
     When I click on 'enter'
