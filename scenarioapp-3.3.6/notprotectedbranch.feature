@@ -1,0 +1,2 @@
+Feature: notprotectedbranch
+  Scenario: notprotectedbranch
