@@ -15,3 +15,4 @@ Feature: Login
 	And user clicks "login"button
 	Then error message displayed with wrong password
 	And user returns back on login page
+        Then Test is successful
